@@ -311,7 +311,7 @@ namespace DCSoft.Expression
         private int ParseNumber(string txt, string digs)
         {
             int v = 0;
-            for (int iCount = 0; iCount < txt.Length; iCount++)
+            for (int iCount = 0; iCount < txt.Length; iCount++)  
             {
                 int i = digs.IndexOf(txt[iCount]);
                 if (i < 0)
